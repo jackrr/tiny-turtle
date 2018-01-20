@@ -68,7 +68,7 @@ incremental way.
 ## CoffeeScript
 
 The `TinyTurtle` class can also be extended in [CoffeeScript][], if one
-wishes to teach (or learn) it as an alternative to JavaScript. For 
+wishes to teach (or learn) it as an alternative to JavaScript. For
 example:
 
 ```coffeescript
@@ -153,6 +153,10 @@ can be represented as any one of:
 
 The width of the turtle's path, in pixels.
 
+**animationDuration** (read/write)
+
+Time in ms to spend on each forward move.
+
 **canvas** (read-only)
 
 The [HTMLCanvasElement][] the turtle is drawing on.
@@ -163,7 +167,7 @@ The current rotation of the turtle, in degrees.
 
 **position** (read-only)
 
-The current position of the turtle, as an object with `x` and `y` 
+The current position of the turtle, as an object with `x` and `y`
 properties.
 
 **pen** (read-only)
