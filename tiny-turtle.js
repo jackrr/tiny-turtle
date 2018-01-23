@@ -98,7 +98,7 @@ function TinyTurtle(canvas) {
     triangle(ctx, size || 10, (size || 10) * 1.5);
     isPenDown ? ctx.fill() : ctx.stroke();
     ctx.restore();
-    return self;
+    next()
   }
 
   self.penStyle = 'black';
